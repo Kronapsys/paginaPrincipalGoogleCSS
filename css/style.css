@@ -1,0 +1,48 @@
+#esqueleto{
+    border: 0.1em solid black;
+}
+
+.principal{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerTop{
+    height: 2em;
+    width: 100%;
+}
+
+.logo{
+    width: 25em;
+    height: 8em;
+}
+
+.barraBusquedaComplIzq{
+    width: 2.5em;
+    height: 2em;
+    border-radius: 50% 0% 0% 50%;
+}
+
+.barraBusqueda{
+    width: 35em;
+    height: 2em;
+}
+
+.barraBusquedaComplDer{
+    width: 2.5em;
+    height: 2em;
+    border-radius: 0% 50% 50% 0%;
+}
+
+.botones{
+    height: 2em;
+    width: 100%;
+}
+
+.bannerBot{
+    height: 2em;
+    width: 100%;
+    
+}
