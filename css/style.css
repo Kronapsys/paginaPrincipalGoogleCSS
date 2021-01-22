@@ -12,6 +12,37 @@
 .bannerTop{
     height: 2em;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.cajaBannerTop{
+    width: 70em;
+}
+
+.cajaBannerTop1{
+    width: 1em;
+}
+
+.cajaBannerTop2{
+    width: 1em;
+}
+
+.cajaBannerTop3{
+    width: 1em;
+}
+
+.iconoBannerTop{
+    height: 1.2em;
+    width: 1.2em;
+}
+
+.btnSignIn{
+    height: 1.5em;
+    width: 5em;
+    background-color: blue;
+    color: white;
+    text-align: center;    
 }
 
 .logo{
@@ -36,12 +67,12 @@
     border-radius: 0% 50% 50% 0%;
 }
 
-.botones{
+/*.botones{
     height: 2em;
     width: 100%;
-}
+} */
 
-.bannerBot{
+.btnPersonalizar{
     height: 2em;
     width: 100%;
     
@@ -58,13 +89,13 @@
 }
 
 .icono-micro{
-    height: 1.5em;
-    width: 1em;
+    height: 1.1em;
+    width: 0.8em;
 }
 
 .icono-lupa{
-    height: 1.5em;
-    width: 1.2m;
+    height: 1em;
+    width: 1em;
 }
 
 .caja2{
@@ -81,19 +112,27 @@
     flex-direction: row;
 }
 
-
-
 .caja4{
     width: 24em;
 }
 
 .cajaBarraBusqComplDer{
-    height: 0.5em;
+    height: 0.67em;
 }
 
 .cajaBarraBusqComplIzq{
-    height: 0.5em;
+    height: 0.67em;
+    display: flex;
+    flex-direction: row;
 }
 
+.caja5{
+    width: 1em;
+}
+
+.caja7{
+    height: 20;
+    
+}
 
 
