@@ -72,6 +72,7 @@
   height: 2.5em;
   border-radius: 50% 0% 0% 50%;
   box-shadow: 0em 0em 0.8em 0em lightslategrey;
+  
 }
 
 .barraBusqueda {
@@ -80,9 +81,15 @@
   box-shadow: 0em 0em 0.8em 0em lightslategrey;
 }
 
+.barraBusquedaAux{
+  margin-top: -0.3em;
+}
+
+
 .tBarraBusq {
   font-family: "Source Sans Pro", sans-serif;
   color: grey;
+  text-align: justify;
 }
 
 .barraBusquedaComplDer {
@@ -110,11 +117,15 @@
 .icono-micro {
   height: 1.1em;
   width: 0.8em;
+  
+  margin-left: 0.3em;
 }
 
 .icono-lupa {
   height: 1em;
   width: 1em;
+  margin-top: 0.8em;
+  margin-left: 0.8em;
 }
 
 .caja2 {
@@ -146,5 +157,12 @@
 }
 
 .caja5 {
+  display: flex;
+  flex-direction: row;
   width: 1em;
+}
+
+.caja5-1{
+  flex-direction: column;
+  top: 3em;
 }
